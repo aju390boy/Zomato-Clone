@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    background-color: rgb(252, 252, 252);
+    overflow-x: hidden;
+
+}
+
+header{
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 430px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+nav .app_link{
+    margin-top: 20px;
+    color: #fff;
+   
+}
+nav .app_link i{
+    margin-left: 150px;
+    font-size: 11px;
+}
+
+nav .app_link a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav_items{
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+
+nav .nav_items ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav .nav_items ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 21px;
+    font-size: 21px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content_wrapper{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:80px ;
+
+}
+.content_wrapper img{
+    width: 300px;
+    height: 60px;
+}
+.content_wrapper h1{
+    font-size: 2.2rem;
+    font-weight: lighter;
+    margin: 30px 0;
+    letter-spacing: 2px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.content_wrapper span{
+    font-weight: lighter;
+    font-size: 35px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.search_container{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    height: 3.4rem;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.search_container .left_search,.search_container .right_search{
+    display: inline-flex;
+    padding: 0 1rem;
+}
+.search_container .left_search{
+    width: 30%;
+    border-right: 2px solid rgb(189,188,188);
+}
+.search_container .right_search{
+    width: 70%;
+}
+.search_container input{
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+    background: transparent;
+    color: grey;
+    width: 100%;
+    margin-left: 6px;
+}
+.search_container .left_search i{
+    color: #f98591;
+    font-size: 20px;
+}
+.search_container .right_search i{
+    color: #a4a2a2;
+    font-size: 20px;
+}
+
+/*------Order section-----*/
+
+.order-section{
+    width: 70%;
+    height: 400px; ;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.order-section .order{
+    
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100px;
+    margin-top: 4%;
+    margin-bottom: 40px;
+}
+.order .card{
+    width:100%;
+    margin-right: -90px;
+    height: 240px;
+    border-radius: 8px;
+    border: 1px solid rgb(209,207,207);
+    transition: transform 0.5s;
+    position: relative;
+
+}
+.order .card a img{
+    width:100%;
+    height: 160px;
+    border-radius: 8px;
+    
+}
+.order .card:hover{
+    transform: scale(1.1);
+}
+.order-section .content{
+    text-align: left;
+    width: 100%;
+    padding: 0 12px;
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+.order-section .heading1{
+    font-size: 1.3rem;
+    margin-bottom: 10px 0;
+    text-align: left;
+    margin-bottom: 4px;
+    opacity: 80%;
+    font-weight: lighter;
+
+}
+.text{
+    font-size: 1.1rem;
+    text-align: left;
+    margin-bottom: 13px;
+    opacity: 60%;
+}
+
+/*locality section*/
+
+.locality{
+   margin-left: 225px;
+   margin-top: -90px;
+}
+.locality h1{
+   font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-size: 40px;
+}
+.locality span{
+    font-weight: 400;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*locality div*/
+.cherthala-1{
+    height: 70px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.1px solid rgb(209, 204, 204);
+    margin-left: 227px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-right: 22px;
+    
+}
+.cherthala h4{
+    margin-top: 8px;
+    margin-left: 15px;
+    font-size: 22px;
+    font-weight: normal;
+    opacity: 90%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cherthala p{
+    margin-top: 5px;
+    margin-left: 14px;
+    opacity: 80%;
+    font-size: medium;
+}
+.cherthala{
+
+    width: 70%;
+    
+}
+.arrow{
+
+font-size: 10px;
+}
+
+/*Get Zomato app*/
+
+.zomato-app{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(246, 247, 242);
+    margin-top: 100px;
+    display: flex;
+    justify-content: start;
+    
+}
+.zomato-app .mobile{
+    width: 50%;
+}
+.zomato-app .location{
+  display: column;
+}
+.zomato-app .mobile img{
+
+    width: 400px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.location .location-1 h1{
+    font-size:40px;
+    margin-top: 60px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.location .location-1 p{
+    
+    
+    font-size: large;
+    font-weight: lighter;
+    margin-top: 20px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+.location-2 .radios-2 input{
+    width: 300px;
+    height: 50px;
+    border-radius: 7px;
+    border-color: rgb(240, 225, 225);
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 10px;
+    opacity: 80%;
+    
+    
+}
+.radios-1 {
+    
+  
+    display:flex;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+.radios-1 input{
+    
+    width:19px;
+    height: 19px;
+   background-color: #EF4F5F;
+    margin-right: 10px;
+    
+    
+}
+.radios-1 .input-1{
+    margin-left: 50px;
+}
+
+.location .location-2 button{
+    
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #EF4F5F;
+    color: #fff;
+    border: none;
+    padding-top: 1px;
+    font-size: 16px;
+    margin-left: 7px;
+
+    font-family: Okra, Helvetica, sans-serif;
+}
+.location-2 .radios-2{
+    margin-top: -65px;
+    margin-bottom: -30px;
+}
+
+.location .location-3 p{
+    margin-top: 50px;
+    opacity: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.location .location-3 img{
+    width: 150px;
+    margin-top: 20px;
+} 
+.location-3{
+    margin-top: -20px;
+}
+
+/*explore near me section*/
+
+.explore{
+    margin-left: 260px;
+    margin-top: 40px;
+    
+    
+   
+    
+
+}
+.explore .explore-1,.explore-2,.explore-3{
+    width: 80%;
+    height: 65px;
+    border-radius: 7px;
+    border: 0.1px solid gray;
+    justify-content: start;
+    align-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+     padding-left: 22px;
+     
+}
+.explore h2{
+   
+   
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 21px;
+    color: #1C1C1C;
+    font-weight: lighter;
+    opacity: 90%;
+   
+    
+    
+}
+.explore h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: lighter;
+    opacity: 75%;
+}
+.explore-1 i{
+    margin-left: 720px;
+    font-size: medium;
+}
+.explore-2 i{
+    margin-left: 645px;
+    font-size: medium;
+}
+.explore-3 i{
+    margin-left: 781px;
+    font-size: medium;
+}
+
+
+
+/*footer*/
+
+
+
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.footer-parent .footer-1 img{
+    width: 130px;
+    height: 25px;
+    margin-left: 260px;
+
+}
+.footer-2{
+    display: flex;
+    gap: 20px;
+   
+}
+.footer-2-1{
+    display: flex;
+    height: 35px;
+    width: 100px;
+   border: 1px solid gray;
+    border-radius: 5px;
+}
+.footer-2-2{
+    height: 35px;
+    width: 100px;
+   border: 1px solid gray;
+    border-radius: 5px;
+    margin-right: 255px;
+    
+}
+.footer-parent .footer-2 .img-1 img{
+    width: 25px;
+    height: 30px;
+    margin-right: 3px;
+    margin-top: -5px;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+.footer-parent .footer-2 .india-1{
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.footer-2-2 i,span{
+    margin-top: 10px;
+    margin-left: 1px;
+    padding: auto;
+    
+}
+.conclution{
+    display: flex;
+    justify-content: space-around;
+    width: 88%;
+    margin-top: 30px;
+
+}
+.conclution p{
+    font-family:Okra, Helvetica, sans-serif ;
+    color: #696969;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.conclution h3{
+    font-family:Okra, Helvetica, sans-serif  ;
+    font-size: 15px;
+    color: #000000;
+    margin: 0px 0px 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.conclution .conclution-1{
+    margin-left:200px;
+}
+.social-media{
+    margin-left: -10px;
+    margin-top: 5px;
+}
+.social-media i{
+    font-size: 22px;
+    padding: 3px;
+}
+.conclution-5 img{
+    width: 150px;
+    height: 43px;
+
+    margin-left: -20px;
+    margin-top: 15px;
+}
+
+.space-div{
+    width: 100%;
+    height:50px;
+    
+}
+.space-p{
+    margin: 20px;
+    width: 83%;
+    
+}
+.space-p p{
+    font-size: 13px;
+    margin-left: 230px;
+    color: #4F4F4F;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOMATO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAwFBMVEX/ADX////r6+vq6ur5+fn09PTx8fH8/Pzu7u76+vr/ACz/ACr/ABz/ACD/fYz4c4Lq8vH/ACX/2uHuyM7/ADH/p7H/ABn/7/L/ADn4////9/n/4OXv9/b/rrr/nqr/usL/6Oz/0tn/w8n/ZHb1z9br5uj/RmH/Olj/Umv/AAz/1dn/gZH/kp//eIv/H0bs3+L/M1D/XXP/yc//AAD/n6v/laH/an//GkLyr7j2hpXzoKzt1tvwvcX3aX3/UWf/vcfPRVrtAAAMyElEQVR4nO1deX+iPhMHbwlpSRuxWs+69ajaqtvadZ/d7ft/V09OQBSElt+nCTr7x47pGPMlc5EMwSgVC4VCsWoSqjK2RNka4Qo1ypll1srYui9gMrZsKi9cMi4IFRz0BeEBQkoCISWOkHIFIU1JdO0JmIwVXassXDLKJUoVRowtexxvLYfZckhWcWEjgF/OcLEQnFMuUKBshbGVwAUqqi9sHNXhoF0KaUqya1/Jw0asoPAFoZKD/hTCPTsspjEA1YVTRYuAAHfTFVN54fpZRPwLQuUGnQ3CYpquVRYmCJlP5QgZS8SrZkVej6pZ9gW4bIk1S1nlhVNFCy6Q0E0rInxGEf+CUKlBfwphIjtUJRFLJWyU01Hp+ynliOPy0sCc8mvVKj6+3N7+uKF0SynA3jL2h88eSGQjfN+uVh3HKUSsYhyMOWlOQxLaZn8+fndtCG1GkFKAjWjOXth138fzXy9OiyP0ze4rWVvNeWmMIQQYGyoQxgChcaOdGcKC83JtITXA+YQhnrezWU3sPO5m4LvxHCMMZm9Vx3eukauJB/gpW2eIaVvnzzv6biyRhN43DEVhb8w8URWgTkX8mrN0VdPPIGF3Z8ZG/FN5ae1xrO4EcoLr6heytsLjSkkL3CM0aSfL2kh7GKH5+Gx99/gTEFgx13EEYZFraZVSpUaowtgyZUuUK010AEggjisVOeY6HX0tACoua3O26qsoJ7SMixaREd/5bX/3yBOT2/9ETlP7ny4zSAhbzfQInakeRsgJbFNnbc4ffXSUkvt0Yg+4HNpbLbXGKqcyh2StO/z+ONkeMIH/5H73mFOSe2v6ephgNdHc6mSFlKy/rTRZW6GpG0DiTktpEDpd1RPuQ4IfJ/LSPTt0/mo3hwaYs+EH7LDI7fB4tHjWy5NSwivnWLSI2ANu6hUMOYGXFDnNRkeE9m0tOcI+/O7hfoLQLyd51vaqnyslCH87R9e8j1W9teYa3Vd4BHadY1V9R6OFc61fsCAIr5JnbVojTJTTXBCqSScQ5sUOzSN2WPNXD+VKXOtKR19qXXf2VkRrdQbqeMTXFKETXNWOz2m0RZg4a7sgVJIiETKful+5pznCBJV7GkeLS9Z2Qag0nUnWlrByr3Wtoy8F163klXu6RovklXu6IjzXnOYMEObKDhNW7ukcLbzcOrZyT2eEySr3coQw/3MYUbmXF4TRlXsdTRG2klfu5SpanEPEvyDUhc44aztSudfR8w74qpW4ck/reHhZTbwgVJjOZDUxaeVejqJFROWergjPNqfJP8Jc2WHSyj0tEYLrS+WeYhE/9cP/euU02LLf1ykh6oQQQ2u7MRspC5U1ytrAuEtPhPib0t3pU7nHR2qa65SXWZ/KPf54T/qnWv77yj1sAQRA6odtMEAQQuR/cdZkQ2sTb+q1YQRtG8YfP5JZ1oYty8Ie0Q+8GVrree/tamIHvkv/zn+doJDtQZ6M/Pm61ye0m9isI2Sv+BTe02c+7vg34L/Gw/39x+vYjsGYFUI83o7W0/GE0Xi6Hm1X9FfRc58PzBxs+UkaACKLCF8RiNiedocPOzYF+/yk0TQl3UyI84QPzbb4TIzIXAAqtR1ImadVtINNnJeeqNyDQzNEVBguAg0PdPhgMWBDHUIDrJ74rNiGxw/JSPE01NcaGO5gr2VkET34CLZsIyFGriZSh2My31MzhR+KixZwfwiEroExe9hr2bhkUhuCh2haFe1LgNZS5q9loNdQT8T0ZvstzxiD0A9OohSV+GAy/IK3M8NBpd5dw3dVM0Rby/4INS2Bj3A29pq7rgfQ7CMDT8JdLRDe+9y0MLwJydxEPXWW0R4wXoVHZa7gPNx0j3yEuO01fwR4+vAY04fh69V2IeZp4472+hlA9Hbwe1FPmWeUtYFl+AfXSE7rzWQsNWqCofA8rxtftBHgKULUaM4tGwELzfgXh+64Lz1Wo9vtztGz+HSzWt3LP0RYYkZ7wGDRHDCSI11CaU5NZAGpd3NgP4lpITMqFY38fy+aTfak8Z2Mn2KqniCWwaL5EyEEYJd/GpC+pfYMIx4djNTSlHvAwKX0U07lwjaAcPj0KBR7IMcP5SU332a2Z7u9GWzLa0B7wwC6rm27PznCDfSU5ImZGxDfpDmqyAQI2iiEoT1g4Wk+tYoBJcBX17CmnG3TH7bFdD3YhjS5rotx1eelSk9ZnHxefAyahDb8ex/QQIvAHFvCLNs0rZBa0Y4YXOI94ASV7J7P77qegvEnayXCD6lsRHex5zOJa/Q81R0mWcJ+kCHTjbys9I0ilAYwZH0LhM1ohFmttQExaxwUFMNkz53aQjffbHkR5siwtod8k8yWbPaJ/K7MKEbUUKS76tO+XdF3lB1mh9BzJ8Qv0FEIB9mjowDiT0tbRhCSPQOZ8NjeU/PEzIDQwEHj7a0nrhIJBNKqWUywBVzmPn+KXqIeUs4qazOsZ2FhNwygpzwUobRJ8x3KcGj7M0F5JJxjF3Eo1fUMUeKtK3I9uJ1W73Cg70aw72VKOywHzgSVbNweML4TF7l5xx29nEM6CrsvwQevvlS8HvJ1egm5jq6ZYxQ3vVWXJPb879ydSGk6bba4NuZdZMRv0XVEHwln065iYCziQRO77LxNCwlUgxn2QhYJh/eSMzzFo7xMa6d8wAOucS53UAPimYX93kOMEZAz3nT9vj+inqTPZjURIxm9hx8PlDZX8K9oaRhjOb0AW6KRmJMXICgv8zaL+8wBi3q2WLd4gJ7NVld3437Dls6oeyf7js28M8ja7EDexWkL8EEuPgJYZlvv2FM8uiwh2wdQRIWtC4AroytRRtQL9HMFQNsMUS/yMIRMEEqNDNAz3hsUpYbthWoauywxydS0pBIObRnq+lc7mcjR+10QzLTHGO1CfW+iT3vIZDUR3Yd+0KRH9aD9OziaBkhlo0sR8grcID9YNBAeB7/Cp4oYqrUONBOf4j6ZQRrGrIRHrSamytrQwe0vzTawEQQ+twOTTd2CdLb08kvXQTy+7etD453/T7NPy1/WoG4I42Gg78aJdZpkz1vExcNDs2DpI0YLL/N8Zu7fz8CJo2z6vEQ7xX6YHIxmQo+XRCGsseiq/frO13Lm8kcfxrEHkmSS0+Be422+XG4ZLZe7XmPE9RnN1m+NRm9kQ7Hy9tqg1KWruqjL+AblQY/zbA3NXpHv7CYzC49HjNialoWuicB8MpNrh2D2b0FatlbcBGaF0KD3bABYjAiDkGewFvngfzIQJyvMA86LC0Y+sRtEzHsUCCyE0N66K2Z9n1qJTZS1FRJkbcrSmewBH76ITcW9p09S5N4TR6jU/uHnSKcd0s/R2SPMsx1yt1MnJHxpva6nL7WYL6VA6gxUjbGfW2tTkxLvAWuN8Fwr93I/h8yn5ur0FvGOjmI+T285Uud9NhH/glADOpOsLenpLVr60svpLTmO+OeXteUQYco9YGUpq8o9dSmjyj2F6XJ6S+4R5llL83t6y1cq95SkLCv31KRzzmnyjzD3WVvKyj11KaPKPYVJu+eAU9PZZ235R5gXO/xq5Z7SdFlry3NOk3+EZ1m5p+9715JW7vV0RMgrrBNmbb90fDsgq6pOmNPU/uj4hkf2bFtShC86IkTN5FlbsaDlu2TNCDs8UrlXb+n4PuAr6kqTVu6ZGroa9qLVxJV75qN2c4iNwp4vOZG1mZ2RbhDBspMUIZtD59b97iGnJPe+EoXwWOWeWXP+6eVNrVHoHR3xlXs0Ex/qNYn2LZ+lhJV7DP5ap9wUbJ0DS4vLaRjCZvpDrb6NMH6ppUdo9vXRU5fEwlMID+yQ0FKXsI/ovW947yW2ck/uYoz1MEUw7USjiKjcE3NaXekAEawqR/UwPuILu2xP1FdUMHk86ktOZG1SurpW/U4RjoqFryA0zZ2rctDA7s6RrjMaYbQdMpHNu7qaila3BGDxeDzw94DZP+49A6y3Mdwp91wlgz8GqFdu+QMth1jBx8VDL7a05zj+YM1vIAsZu0eHb9sfrUWIXU089K3t3//oM/JqwMQWgGjafXQ8WzsaD05nbXvSjvPya/dvRQ9Xs9nJOzajGPa0xOeEbbiaLjZtk93wZoiQ/tnpmO3m/c2PW0o3lALsDWN/hNnMhX+8PHbYiCrFdAiP2eHhvRYXYN8MdG1yCdpaCnT9XwmLYVQC/rIYM+aT8TAYW+q+gBm4VkoLn474Cg76gvAMEdKdXxktC17Wdmz9OKprlYW9PeB6qeTtWxCWcRXCler+fmo98FKzephVVjhptCj40eK0m1ZKOEXEl1EraahVRPiCUMlBfwphnu3wS760nsbjfY/wGcTDc8hpLgiVG/QFYTgv5X9NcY+f9OZaEeHzifgXhEoN+oJwT/j/a7mvv6iIIZcAAAAASUVORK5CYII=">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <header>
+    <nav>
+        <div class="app_link">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <a href="">Get the App</a>
+            
+        </div>
+        <div class="nav_items">
+            <ul>
+                
+                <li><a href="">Investors Relation</a></li>
+                <li><a href="">Add restaurant</a></li>
+                <li><a href="">Log in</a></li>
+                <li><a href="">Sign up</a></li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <div class="content_wrapper">
+        
+        <img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="">
+         <h1>Discover the best food & drinks in <span>Cherthala</span>
+         <div class="search_container">
+            <div class="left_search">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="Cherthala">
+            </div>
+            <div class="right_search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search for restaurant ,cuisine,or a dish">
+            </div>
+         </div>
+        </div>
+
+</header> 
+
+<!--Order section-->
+<div class="order-section">
+    <div class="order">
+        <div class="card">
+            <a href=""><img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt=""></a>
+        <div class="content">
+            <h2 class="heading1">order Online</h2>
+            <p class="text">Stay home and order to your doorstep</p>
+
+        </div>
+        </div>
+    </div>
+</div>
+
+<!--Locality section-->
+
+<div class="locality">
+    <h1>Popular localities in and around <span>Cherthala</span></h1>
+</div>
+
+<!--locality div-->
+<div class="cherthala-1">
+   
+    <div class="cherthala">
+        
+        <h4>Cherthala locality</h4>
+        <p>68 places</p>
+        
+    </div>
+
+    <div class="arrow">
+        <i class="fa-solid fa-greater-than"></i>
+    </div>
+</div>
+
+<!--Get zomato app-->
+
+<div class="zomato-app">
+    <div class="mobile">
+      <img src="https://b.zmtcdn.com/data/o2_assets/ce5bc038a8a2d4f8f24465c8826182af1726501431.png" alt="">
+    </div>
+    <div class="location">
+        <div class="location-1">
+       <h1>Get the Zomato app</h1>
+       
+       <p>We will send you a link, open it on your phone to download the app</p>
+      
+    </div>
+    <div class="location-2">
+        <div class="radios-1">
+
+            <input type="radio" style="color: blueviolet;" name="radio">
+            <label for="">Email</label>
+            <input class="input-1" type="radio" name="radio">
+          
+            <label for="">Phone</label>
+            
+            <br>
+            </div>
+            <div class="radios-2">
+            <input type="email" placeholder="Email">
+            <button>Share App Link</button>
+        </div>
+       
+    </div>
+    <div class="location-3">
+         <p>Download app from</p>
+        <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">
+        <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="">
+    </div>
+    </div>
+</div>
+
+<!--Explore near me section-->
+
+<div class="explore">
+    <h1>Explore options near me</h1>
+      <div class="explore-1">
+       <h2>Popular cuisines near me<i class="fa-solid fa-angle-down"></i></h2>
+  </div>
+      <div class="explore-2">
+       <h2>Popular restaurant types near me<i class="fa-solid fa-angle-down"></i></h2>
+   </div>
+      <div class="explore-3">
+       <h2>Cities we deliver to<i class="fa-solid fa-angle-down"></i></h2>
+   </div>
+
+</div>
+
+<!--footer-->
+
+<footer class="footer-class">
+    <div class="footer-parent">
+
+    <div class="footer-1">
+      <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*" alt="">
+    </div>
+    <div class="footer-2">
+        <div class="footer-2-1">
+            <div class="img-1">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1280px-Flag_of_India.svg.png" alt="">
+        </div>
+        <div class="india-1">
+       <span>India</span>
+       <i class="fa-solid fa-angle-down"></i>
+       </div>
+       </div>
+       <div class="footer-2-2">
+        
+            <i class="fa-solid fa-earth-americas"></i>
+       <span>English</span>
+       <i id="id" class="fa-solid fa-angle-down"></i>
+       
+       </div>
+    </div>
+    </div>
+
+    <div class="conclution">
+        <div class="conclution-1">
+        <h3>ABOUT ZOMATO</h3>
+        <p>Who We Are</p>
+        <p>Blog</p>
+        <p>Work With Us</p>
+        <p>Investor Relations</p>
+        <p>Report Fraud</p>
+        <p>Press Kit</p>
+        <p>Contact Us</p>
+        </div>
+        <div class="conclution-2">
+            <h3>ZOMAVERSE</h3>
+            <p>Zomato</p>
+            <p>Blinkit</p>
+            <p>District</p>
+            <p>Feeding India</p>
+            <p>Hyperpure</p>
+            <p>Zomato Live</p>
+            <p>Zomaland</p>
+            <p>Weather Union</p>
+            </div>
+            <div class="conclution-3">
+                <h3>FOR RESTAURANTS</h3>
+                <p>Partner With Us</p>
+                <p>Apps For You</p>
+                </div>
+                <div class="conclution-4">
+                    <h3>Learn More</h3>
+                    <p>Privacy</p>
+                    <p>Security</p>
+                    <p>Terms</p>
+                    </div>
+                    <div class="conclution-5">
+                        <h3>Social Links</h3>
+                        <div class="social-media">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="footer-image-1">
+                            <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="">
+                            </div>
+                            <div class="footer-image-2">
+                            <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">
+                            
+                            </div>
+                    </div>
+                       
+    </div>
+    <div class="space-div">
+        
+    </div>
+
+    <hr>
+    <div class="space-p">
+    <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2025 © Zomato™ Ltd. All rights reserved.</p>
+    </div>
+   
+</footer>
+
+    
+</body>
+</html>
